@@ -2,10 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'css/bootstrap.min.css';
 import Root from 'client/Root';
-import Header from 'client/Header';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Header />, document.getElementById('header'));
 ReactDOM.render(<Root />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
