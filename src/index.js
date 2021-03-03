@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'css/bootstrap.min.css';
-import Root from 'client/Root';
+import Root from './client/Root';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Root />, document.getElementById('root'));

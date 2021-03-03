@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import 'css/bootstrap.min.css';
+import '../css/bootstrap.min.css';
 import { Route } from 'react-router-dom';
-import { Home, License, About, Post } from 'pages';
-import Menu from 'components/Menu';
+import { Home, License, About, Post } from '../pages';
+import Menu from '../components/Menu';
 import queryString from 'query-string';
-import { firebaseSet } from 'shared/firebase.js'
+import { firebaseSet } from '../shared/firebase.js'
 
 class App extends Component {
   constructor(props, match) {
