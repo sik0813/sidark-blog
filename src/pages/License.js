@@ -1,7 +1,7 @@
 import React from 'react';
 import Licenselist from '../components/Licenselist';
 import { firebaseSet, getLicense } from '../shared/firebase.js';
-import { Table, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 export default class License extends React.Component {
     constructor(props){
